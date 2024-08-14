@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Send+Flowers&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+  }
+  .send-flowers-regular {
+    font-family: "Send Flowers", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .color{
+    background-color: black;
+  }
+/* Shared style */
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+  /* Nav bar */
+
+
+.typo{
+    color: #E6533C;
+    font-family: "Inter";
+    font-style: italic;
+}
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 2px 30px;
+    align-items: center;
+
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 190px;
+    align-items: center;
+    padding: 57px;
+    
+}
+.menue{
+    display: flex;
+    gap: 47px;
+    color: white;
+}
+/* banner style */
+.banner{
+    display: flex;
+    /* justify-content: center; */
+    padding: 90px 190px;
+
+}
+.banner-content{
+    width: 50%;
+    
+}
+.banner-img{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.banner-title{
+    font-size: 78px;
+    font-weight: 900px;
+    color: white;
+}
+#shape{
+    font-family: "Send Flowers";
+}
+.banner-button{
+    display: flex;
+    gap: 14px;
+    
+}
+.Join-button{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    font-family: "Inter";
+    font-size: 18px;
+}
+.download-button{
+    padding: 16px 40px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    color: white;
+    font-family: "Inter";
+    font-size: 18px;    
+}
+
+/* Havit design */
+.havits{
+    /* display: flex;
+    flex-direction: column; */
+}
+.havit-title{
+    color: white;
+    text-align: center;
+    margin-bottom: 58px;
+    width: 100%;
+}
+.havit-container-details{
+    color: white;
+    /* width: 20%;
+    margin: 0 auto; */
+    
+}
+.havit-image{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    gap: 40px;
+}
+.havit-img{
+    border: 10px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 567px) {
+    .head{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
