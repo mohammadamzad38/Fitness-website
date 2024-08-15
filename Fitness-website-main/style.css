@@ -8,8 +8,8 @@
   }
   .send-flowers-regular {
     font-family: "Send Flowers", cursive;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 700;
+    font-style: italic;
   }
   
   .color{
@@ -30,6 +30,7 @@ p{
 .typo{
     color: #E6533C;
     font-family: "Inter";
+
     font-style: italic;
 }
 .home{
@@ -104,15 +105,14 @@ p{
 }
 
 /* Havit design */
-.havits{
-    /* display: flex;
-    flex-direction: column; */
-}
+
+
 .havit-title{
     color: white;
     text-align: center;
-    margin-bottom: 58px;
-    width: 100%;
+    padding-bottom: 58px;
+    width: 70%;
+    margin: 0 auto;
 }
 .havit-container-details{
     color: white;
@@ -120,21 +120,136 @@ p{
     margin: 0 auto; */
     
 }
+.havit-parent{
+    margin: 0px 198px;
+}
 .havit-image{
     display: flex;
     flex-direction: row;
     text-align: center;
     width: 100%;
     gap: 40px;
+    
 }
 .havit-img{
     border: 10px;
     border-radius: 100px;
 }
+/* Run box */
+.run-container{
+    margin: 100px 190px;
+}
+.run-box{
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 40px;
+    gap: 165px;
+   
+}
+.run-title, .team-title, .ft{
+    color: white;
+}
+.run-image{
+   width: 50%;
+   border-radius: 30px;
+}
+.join-button{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #E6533C;
+}
+/* team */
+.team-box{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    margin: 130px;
+    padding: 20px 0px;
+    
+}
+/* tEAM IMAGE BOX */
+.team-img-box{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    
+    
+}
+.team-img-box-1{
+    width: 100%;
+    background-image: url(./images/trainer1.png);
+}
+.team-img-box-2{
+    background-image: url(./images/trainer2.png);
+}
+.team-img-box-3{
+    background-image: url(./images/trainer3.png);
+}
+.team-img-box-4{
+    background-image: url(./images/trainer4.png);
+}
+.team-img-box-5{
+    background-image: url(./images/trainer5.png);
+}
+.team-img-box-6{
+    background-image: url(./images/trainer6.png);
+}
 
+/* footer */
+.fitness-title{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+}
 
-
-
+.foot-color{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 190px;
+    padding-top: 65px;
+    gap: 100px;
+    
+   
+}
+.footer-menue{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    text-align: start;
+    gap: 130px;
+    
+}
+.line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.credit{
+    width: 50%;
+    margin: 0 auto;
+    padding: 35px 0px;
+    text-align: center;
+}
 
 
 
@@ -144,10 +259,6 @@ p{
 /* Responsive Design */
 
 @media screen and (max-width: 567px) {
-    .head{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
+
     }
-}
+    
