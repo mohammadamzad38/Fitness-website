@@ -185,20 +185,21 @@ p{
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
-    
-    
 }
 .team-img-box-1{
-    width: 100%;
+    
     background-image: url(./images/trainer1.png);
 }
 .team-img-box-2{
     background-image: url(./images/trainer2.png);
 }
 .team-img-box-3{
+    width: 100%;
+    margin: 0 auto;
     background-image: url(./images/trainer3.png);
 }
 .team-img-box-4{
+    margin: 0 auto;
     background-image: url(./images/trainer4.png);
 }
 .team-img-box-5{
