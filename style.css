@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Send+Flowers&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+  }
+  .send-flowers-regular {
+    font-family: "Send Flowers", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .color{
+    background-color: black;
+  }
+/* Shared style */
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+  /* Nav bar */
+
+
+.typo{
+    color: #E6533C;
+    font-family: "Inter";
+
+    font-style: italic;
+}
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 2px 30px;
+    align-items: center;
+
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 190px;
+    align-items: center;
+    padding: 57px;
+    
+}
+.menue{
+    display: flex;
+    gap: 47px;
+    color: white;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    /* justify-content: center; */
+    /* margin: 90px 190px; */
+    padding: 90px 190px;
+
+}
+.banner-content{
+    width: 50%;
+    
+}
+.banner-img{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.banner-title{
+    font-size: 78px;
+    font-weight: 900px;
+    color: white;
+}
+#shape{
+    font-family: "Send Flowers";
+}
+.banner-button{
+    display: flex;
+    gap: 14px;
+    
+}
+.Join-button{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    font-family: "Inter";
+    font-size: 18px;
+}
+.download-button{
+    padding: 16px 40px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    color: white;
+    font-family: "Inter";
+    font-size: 18px;    
+}
+
+/* Havit design */
+
+
+.havit-title{
+    color: white;
+    text-align: center;
+    padding-bottom: 58px;
+    width: 70%;
+    margin: 0 auto;
+}
+.havit-container-details{
+    color: white;
+
+    
+}
+.havit-parent{
+    margin: 0px 198px;
+}
+.havit-image{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    gap: 40px;
+    
+}
+.havit-img{
+    border: 10px;
+    border-radius: 100px;
+}
+/* Run box */
+.run-container{
+    margin: 100px 190px;
+}
+.run-box{
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 40px;
+    gap: 165px;
+   
+}
+.run-title, .team-title, .ft{
+    color: white;
+}
+.run-image{
+   width: 50%;
+   border-radius: 30px;
+}
+.join-button{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #E6533C;
+}
+/* team */
+.chobi{
+    color: white;
+    padding-left: 10px;
+}
+.team-box{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    margin: 130px;
+    padding: 20px 0px;
+    
+}
+/* tEAM IMAGE BOX */
+.team-img-box{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+}
+.team-img-box-1{
+    
+    background-image: url(./images/trainer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.team-img-box-2 {
+    background-image: url(./images/trainer2.png);
+    background-size: cover;
+    
+}
+.team-img-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.team-img-box-3{
+    background-size: cover;
+    background-image: url(./images/trainer3.png);
+}
+.team-img-box-4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-image: url(./images/trainer4.png);
+}
+.team-img-box-5{
+    background-size: cover;
+    background-position: 100% 100%;
+    background-image: url(./images/trainer5.png);
+}
+.team-img-box-6{
+    background-size: cover;
+    background-position: 100% 100%;
+    background-image: url(./images/trainer6.png);
+    background-repeat: no-repeat;
+}
+
+/* footer */
+.fitness-title{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.foot-color{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-section {
+    margin: 190px;
+    padding-top: 66px;
+}
+    /* display: flex;
+    flex-direction: row;
+    margin: 0px 190px;
+    padding-top: 65px;
+    gap: 100px; 
+} */
+
+.check{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 100px;
+    
+    
+}
+.footer-title{
+    width: 60%;
+}
+.footer-menue{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    text-align: start;
+    gap: 130px;
+    
+}
+.inner-manue{
+    width: 100%;
+    margin: 0 a uto;
+}
+
+.line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.credit{
+    width: 50%;
+    margin: 0 auto;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 576px) {
+    .menue{
+        display: none;
+    }
+    .banner-content{
+       
+        margin: 0 auto;
+        padding: none;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .banner-button{
+      
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .team-image, .havit-image, .check, .footer-menue{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
