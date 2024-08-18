@@ -48,6 +48,7 @@ p{
     padding: 0px 190px;
     align-items: center;
     padding: 57px;
+    gap: 70%;
     
 }
 .menue{
@@ -73,6 +74,11 @@ p{
     margin: 0 auto;
     text-align: center;
     
+}
+.run-title, .team-box, .havit-title{
+    font-size: 40px;
+    font-weight: 900px;
+    color: white;
 }
 .banner-title{
     font-size: 78px;
@@ -118,8 +124,12 @@ p{
 }
 .havit-container-details{
     color: white;
-
     
+    
+}
+.havit-box-title{
+    width: 50%;
+    text-align: center;
 }
 .havit-parent{
     margin: 0px 198px;
@@ -127,9 +137,9 @@ p{
 .havit-image{
     display: flex;
     flex-direction: row;
-    text-align: center;
     width: 100%;
     gap: 40px;
+    
     
 }
 .havit-img{
@@ -152,8 +162,12 @@ p{
     color: white;
 }
 .run-image{
-   width: 50%;
+   width: 100%;
    border-radius: 30px;
+}
+.join-btn-mob{
+    text-align: center;
+    margin-top: 35px;
 }
 .join-button{
     padding: 16px 40px;
@@ -174,20 +188,19 @@ p{
    
     
 }
-.team-image{
+.team-image {
     display: grid;
     grid-template-columns: repeat(3, 0fr);
     gap: 20px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     justify-content: center;
-    margin: 130px;
-    padding: 20px 0px;
-    
+    margin: 100px;
+    padding: 27px 0px;
 }
 /* tEAM IMAGE BOX */
-.team-img-box{
-    width: 326.67px;
+.team-img-box {
+    width: 327px;
     height: 272px;
     border-radius: 18px;
 }
@@ -274,7 +287,7 @@ p{
 }
 .inner-manue{
     width: 100%;
-    margin: 0 a uto;
+    margin: 0 auto;
 }
 
 .line{
@@ -307,7 +320,7 @@ p{
         padding: none;
     }
 
-    .banner{
+    .banner, .run-box{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -315,19 +328,88 @@ p{
         text-align: center;
         padding: 0px;
     }
-
+    .run-container {
+        margin: 66px 20px;
+    
+    }
+    .run-box{
+        gap: 31px;
+    }
+    .run-image{
+        width: 80%;
+        border-radius: 30px;
+    }
+    .join-btn-mob{
+        text-align: center;
+        padding-top: 24px;
+    }
+    .run-img-mob{
+        text-align: center;
+        margin: 35px 33px;
+    }
+    .run-content{
+        text-align: start;
+        margin: 33px 31px;
+    }
     .banner-button{
       
         width: 100%;
         margin: 0 auto;
+        justify-content: center;
+    }
+    .havit-title{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .havit-parent {
+        margin: 0px 0px;
+        
+    }
+    .havit-image{
+
+        align-items: center;
+    }
+    .havit-img{
         text-align: center;
     }
     .banner-content {
         width: 100%;
     }
+    .havit-container-details{
+        align-items: center;
+    }
     .team-image, .havit-image, .check, .footer-menue{
         display: flex;
         flex-direction: column;
     }
+    .footer-section{
+        margin: 0 auto;
+        text-align: x
+        ;
+    }
+    .footer-title{
+        margin: 10%;
+        text-align: center;
+    }
+    .havit-box-title {
+        width: 50%;
+        text-align: center;
+        margin: 28%;
+    }
+    .footer-menue, .check{
+        gap: 10px;
+    }
+    .team-image {
+        gap: 20px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.1);
+        justify-content: center;
+        margin: 20PX;
+        padding: 27px 30px;
+    }
+  
+   
+
+       
 
 }
