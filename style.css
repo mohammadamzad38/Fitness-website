@@ -132,7 +132,7 @@ p{
     text-align: center;
 }
 .havit-parent{
-    margin: 0px 198px;
+    margin: 0px 190px;
 }
 .havit-image{
     display: flex;
@@ -148,7 +148,7 @@ p{
 }
 /* Run box */
 .run-container{
-    margin: 100px 190px;
+    margin: 100px 150px;
 }
 .run-box{
     display: flex;
@@ -195,7 +195,7 @@ p{
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     justify-content: center;
-    margin: 100px;
+    margin: 100px 300px;
     padding: 27px 0px;
 }
 /* tEAM IMAGE BOX */
